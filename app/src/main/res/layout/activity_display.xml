@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scoreRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    <ImageButton
+        android:id="@+id/back_home"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="200sp"
+        android:layout_width="130sp"
+        android:onClick="backhome"
+        android:background="@drawable/home_logo"
+        android:layout_height="120sp"
+        android:layout_gravity="bottom"/>
+</RelativeLayout>
